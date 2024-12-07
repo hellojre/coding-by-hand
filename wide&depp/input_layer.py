@@ -1,4 +1,3 @@
-from turtle import forward
 import numpy as np
 
 class DenseInputCoDenseInputCombineLayer:
@@ -50,7 +49,7 @@ class SparseInput:
         self._feature_values = feature_values
 
         self._n_total_examples = n_total_examples # 理论上这个batch包含的样本的个数，相当于SparseTensor中的dense_shape[0]
-        self.__nnz_idx = 0 #未知作用
+        self.__nnz_idx = 0      #未知作用
 
     def add(self, example_idx, feat_id, feat_val):
         self._example_indices.append(example_idx)
@@ -65,13 +64,20 @@ class SparseInput:
         返回当前样本的所有feature id和feature value
         并把nnz_index移动到下一个样本的起始位置
         """
-        if nnz_idx > len(self._example_indices):
+        if nnz_idx >= len(self._example_indices):
             return None
 
         end = nnz_idx+1 #nnz_idx是某个item稀疏特征在稀疏矩阵的起始地址
         while end < len(self._example_indices) and self._example_indices[end] == self._example_indices[nnz_idx]:
-            current_feat_ids = self._feature_ids[nnz_idx:end]
-            current_feat_vals = self._feature_values[nnz_idx:end]
+            end += 1 #1 
+
+        """
+        #1#2#3注释是因为测试错误 开始的代码理解错了 
+        end是结束位置 寻找的是同一个样本的编号
+        """
+             
+        current_feat_ids = self._feature_ids[nnz_idx:end]#2
+        current_feat_vals = self._feature_values[nnz_idx:end]#3
 
         return end,current_feat_ids,current_feat_vals
     
