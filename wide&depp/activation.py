@@ -16,7 +16,7 @@ class Sigmod:
         return prev_grads*self._last_forward_result*(1-self._last_forward_result) #后面的是sigmod的导数
     
 
-class Relu:
+class ReLU:
     def __init__(self):
         self._last_input = None
 

@@ -1,6 +1,6 @@
 import logging
 
-def split_column(m,col_sizes):
+def split_column(m,col_sizes): #col_sizes[dense_layer,embedding_layer] m=prev_grads 按照梯度维度将EMbedding分割
     split = []
     start = 0
     for col in col_sizes:

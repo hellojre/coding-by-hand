@@ -1,6 +1,6 @@
 import numpy as np
 
-class DenseInputCoDenseInputCombineLayer:
+class DenseInputCombineLayer:
     def __init__(self,field_sizes):
         # field_sizes: a list of tuple
         # tuple[0]: field name

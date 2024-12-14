@@ -22,7 +22,7 @@ class DenseLayer:
     
     def backward(self,prev_grads):
         assert prev_grads.shape[1] == self._W.shape[1]
-        self._dW = np.dot(self._last_input.T,prev_grads)
+        self._dW = np.dot(self._last_input.T,prev_grads)#这他妈的是链式法则，dy/dw = dy/dx * dx/dw dy/dx就是prev_grads wx对w求导就是x 所以最后就是该公式
         self._dW += self._l2reg * self._W
         self._db = np.sum(prev_grads, axis=0)
         return np.dot(prev_grads, self._W.T) #返回的是dx 这个会传给下一次反向传播 是更新参数的重要参数
