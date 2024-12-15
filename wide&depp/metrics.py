@@ -47,10 +47,11 @@ def auc(y_true, y_score):
             The mean squared error between actual and posterior
     """
     r = tied_rank(y_score)
-    num_positive = len([0 for x in y_true == 1])
-    num_negative = len(y_true)-num_negative
+    num_positive = len([0 for x in y_true if x == 1])
+    num_negative = len(y_true)-num_positive
     sum_positive = sum([r[i] for i in range(len(r)) if y_true[i] == 1]) #正样本排名总和
-    auc = (sum_positive - num_positive*(num_negative+1)/2.0)/(num_negative*num_positive)
+    auc = ((sum_positive - num_positive * (num_positive + 1) / 2.0) /
+           (num_negative * num_positive))
     return auc
 
 

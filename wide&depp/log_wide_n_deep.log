@@ -1,0 +1,248 @@
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer,weight shape=(101, 64)
+2-th hidden layer,weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+{'train_logloss': 0.3750481258120867, 'train_auc': 0.8665603773873041, 'train_accuracy': 0.8250053745278093, 'test_logloss': 0.36241803723030486, 'test_auc': 0.8749955828550794, 'test_accuracy': 0.8302929795467109}
+
+=============== 2-th EPOCH
+{'train_logloss': 0.36407829361678173, 'train_auc': 0.8760372929778705, 'train_accuracy': 0.8306255950370075, 'test_logloss': 0.3605998461162215, 'test_auc': 0.8766776943695359, 'test_accuracy': 0.8318899330507954}
+
+=============== 3-th EPOCH
+{'train_logloss': 0.3625361735805688, 'train_auc': 0.8773873659698481, 'train_accuracy': 0.8314548078990203, 'test_logloss': 0.36040956047359457, 'test_auc': 0.87746351751939, 'test_accuracy': 0.8307229285670413}
+
+=============== 4-th EPOCH
+{'train_logloss': 0.3619356700585598, 'train_auc': 0.8779504123004587, 'train_accuracy': 0.8312091151991646, 'test_logloss': 0.35987427920266785, 'test_auc': 0.8774393669755636, 'test_accuracy': 0.8328726736686936}
+
+=============== 5-th EPOCH
+{'train_logloss': 0.3615098977880022, 'train_auc': 0.8783114305808527, 'train_accuracy': 0.8317926353613219, 'test_logloss': 0.35962883777396865, 'test_auc': 0.8777751745373393, 'test_accuracy': 0.8318285117621768}
+
+=============== 6-th EPOCH
+{'train_logloss': 0.36131019247465457, 'train_auc': 0.8785021703608408, 'train_accuracy': 0.8315162310739842, 'test_logloss': 0.35934504435799614, 'test_auc': 0.8780220119138501, 'test_accuracy': 0.832626988514219}
+
+=============== 7-th EPOCH
+{'train_logloss': 0.3610799141125919, 'train_auc': 0.8787257947086697, 'train_accuracy': 0.8319769048862136, 'test_logloss': 0.35921652365407947, 'test_auc': 0.8781178613449323, 'test_accuracy': 0.8325655672256004}
+
+=============== 8-th EPOCH
+{'train_logloss': 0.36097204657837106, 'train_auc': 0.8788232721207792, 'train_accuracy': 0.8320690396486594, 'test_logloss': 0.35918535928182554, 'test_auc': 0.8781204541305898, 'test_accuracy': 0.8327498310914563}
+
+=============== 9-th EPOCH
+{'train_logloss': 0.36079298555093864, 'train_auc': 0.8789796311727955, 'train_accuracy': 0.8325297134608888, 'test_logloss': 0.3591600173820379, 'test_auc': 0.878156794948919, 'test_accuracy': 0.832626988514219}
+
+=============== 10-th EPOCH
+{'train_logloss': 0.36074412824425633, 'train_auc': 0.8789751168965387, 'train_accuracy': 0.8323454439359971, 'test_logloss': 0.35913332661209263, 'test_auc': 0.8783488283640715, 'test_accuracy': 0.8323813033597445}
+
+=============== 11-th EPOCH
+{'train_logloss': 0.36065136946196785, 'train_auc': 0.8791086620861466, 'train_accuracy': 0.8320076164736955, 'test_logloss': 0.3590853119867349, 'test_auc': 0.8782732612078911, 'test_accuracy': 0.8328112523800749}
+
+=============== 12-th EPOCH
+{'train_logloss': 0.36061659524390527, 'train_auc': 0.8791080584629214, 'train_accuracy': 0.8320997512361414, 'test_logloss': 0.35899704043996206, 'test_auc': 0.8784799104067098, 'test_accuracy': 0.8321970394938886}
+
+=============== 13-th EPOCH
+{'train_logloss': 0.360549874274551, 'train_auc': 0.8792045607913593, 'train_accuracy': 0.8324682902859248, 'test_logloss': 0.35896391650115816, 'test_auc': 0.878448817888381, 'test_accuracy': 0.8324427246483631}
+
+=============== 14-th EPOCH
+{'train_logloss': 0.3604851493050782, 'train_auc': 0.8792595833699635, 'train_accuracy': 0.8319154817112496, 'test_logloss': 0.3589882446298175, 'test_auc': 0.8784008513537164, 'test_accuracy': 0.8329340949573122}
+
+=============== 15-th EPOCH
+{'train_logloss': 0.3604613315231311, 'train_auc': 0.8792661974295762, 'train_accuracy': 0.8324375786984429, 'test_logloss': 0.35894129459601526, 'test_auc': 0.8784782167322077, 'test_accuracy': 0.8320741969166513}
+
+=============== 16-th EPOCH
+{'train_logloss': 0.36039386122259726, 'train_auc': 0.8793378170672868, 'train_accuracy': 0.8328982525106723, 'test_logloss': 0.3589509206500226, 'test_auc': 0.8784389694847947, 'test_accuracy': 0.8329340949573122}
+
+=============== 17-th EPOCH
+{'train_logloss': 0.3603887556717703, 'train_auc': 0.8793179181375469, 'train_accuracy': 0.8326525598108167, 'test_logloss': 0.3588820515424538, 'test_auc': 0.8785328325075102, 'test_accuracy': 0.832626988514219}
+
+=============== 18-th EPOCH
+{'train_logloss': 0.3603512928907912, 'train_auc': 0.8793414697616752, 'train_accuracy': 0.8326218482233346, 'test_logloss': 0.3588987466625429, 'test_auc': 0.8785124665943614, 'test_accuracy': 0.832626988514219}
+
+=============== 19-th EPOCH
+{'train_logloss': 0.3603012936283516, 'train_auc': 0.8794032714934237, 'train_accuracy': 0.8324682902859248, 'test_logloss': 0.3588906847767287, 'test_auc': 0.8785071346561141, 'test_accuracy': 0.8326884098028376}
+
+=============== 20-th EPOCH
+{'train_logloss': 0.3602780016751439, 'train_auc': 0.8794422232485537, 'train_accuracy': 0.832406867110961, 'test_logloss': 0.3588724156457363, 'test_auc': 0.8785468628234474, 'test_accuracy': 0.8325655672256004}
+
+************** TIME COST **************
+30.59 seconds for 20 epoches
+31933.68 examples per second
+
+************** LEARNING CURVE **************
+    train_logloss  train_auc  train_accuracy  test_logloss  test_auc  test_accuracy
+0        0.375048   0.866560        0.825005      0.362418  0.874996       0.830293
+1        0.364078   0.876037        0.830626      0.360600  0.876678       0.831890
+2        0.362536   0.877387        0.831455      0.360410  0.877464       0.830723
+3        0.361936   0.877950        0.831209      0.359874  0.877439       0.832873
+4        0.361510   0.878311        0.831793      0.359629  0.877775       0.831829
+5        0.361310   0.878502        0.831516      0.359345  0.878022       0.832627
+6        0.361080   0.878726        0.831977      0.359217  0.878118       0.832566
+7        0.360972   0.878823        0.832069      0.359185  0.878120       0.832750
+8        0.360793   0.878980        0.832530      0.359160  0.878157       0.832627
+9        0.360744   0.878975        0.832345      0.359133  0.878349       0.832381
+10       0.360651   0.879109        0.832008      0.359085  0.878273       0.832811
+11       0.360617   0.879108        0.832100      0.358997  0.878480       0.832197
+12       0.360550   0.879205        0.832468      0.358964  0.878449       0.832443
+13       0.360485   0.879260        0.831915      0.358988  0.878401       0.832934
+14       0.360461   0.879266        0.832438      0.358941  0.878478       0.832074
+15       0.360394   0.879338        0.832898      0.358951  0.878439       0.832934
+16       0.360389   0.879318        0.832653      0.358882  0.878533       0.832627
+17       0.360351   0.879341        0.832622      0.358899  0.878512       0.832627
+18       0.360301   0.879403        0.832468      0.358891  0.878507       0.832688
+19       0.360278   0.879442        0.832407      0.358872  0.878547       0.832566
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH
+{'train_logloss': 0.3657314945183461, 'train_auc': 0.8750551670354444, 'train_accuracy': 0.8289671693129818, 'test_logloss': 0.35397780422249375, 'test_auc': 0.8818703749356247, 'test_accuracy': 0.8356980529451508}
+
+=============== 2-th EPOCH
+1-th hidden layer, weight shape=(101, 64)
+2-th hidden layer, weight shape=(64, 16)
+final logit layer, weight shape=(16, 1)
+
+=============== 1-th EPOCH

@@ -2,7 +2,6 @@ from ctypes import util
 from turtle import forward
 import numpy as np
 from initialization import TruncatedNormal
-from learning.llm.transformers.build.lib.transformers.models.electra.modeling_electra import ElectraSelfAttention
 import utils
 
 
@@ -36,7 +35,7 @@ class EmbeddingLayer:
         output = np.zeros((X.n_total_examples, self._W.shape[1]))
         
         for example_idx, feat_id, feat_val in X.iterate_non_zeros():
-            embedding = self._w[feat_id, :]
+            embedding = self._W[feat_id, :]
             output[example_idx,:] += feat_val*embedding #目前比较好奇，为什么是+=,理论上不应是特征*权重 最后求和么？
         return output
     
@@ -103,7 +102,7 @@ class EmbeddingCombineLayer:
         embedded_outputs = []
         for embed_layer in self._embed_layers:
             sp_input = sparse_inputs[embed_layer.field_name]
-            embedded_outputs.append[embed_layer.forward(sp_input)]
+            embedded_outputs.append(embed_layer.forward(sp_input))
         
         return np.hstack(embedded_outputs)
     

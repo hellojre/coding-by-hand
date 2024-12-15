@@ -3,7 +3,7 @@ import initialization
 
 class DenseLayer:
     def __init__(self,name,shape,l2reg=0,init_method='glorot_uniform'):
-        self.name = name
+        self._name = name
         self._l2reg = l2reg
 
         self._W = initialization.get_global_init(init_method)(shape)

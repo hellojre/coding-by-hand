@@ -18,8 +18,8 @@ class DenseInputCombineLayer:
         """
         outputs = []
         for field_name,in_dim in self._field_sizes:
-            a_input = np.asarray(input[field_name])#转为np对象
-            assert in_dim == a_input[1]
+            a_input = np.asarray(inputs[field_name])#转为np对象
+            assert in_dim == a_input.shape[1]
             outputs.append(a_input)
         return np.hstack(outputs)#返回一个一维数组，按列
     
@@ -47,8 +47,8 @@ class SparseInput:
         self._example_indices = example_indices
         self._feature_ids = feature_ids
         self._feature_values = feature_values
-
-        self._n_total_examples = n_total_examples # 理论上这个batch包含的样本的个数，相当于SparseTensor中的dense_shape[0]
+    
+        self.n_total_examples = n_total_examples # 理论上这个batch包含的样本的个数，相当于SparseTensor中的dense_shape[0]
         self.__nnz_idx = 0      #未知作用
 
     def add(self, example_idx, feat_id, feat_val):
